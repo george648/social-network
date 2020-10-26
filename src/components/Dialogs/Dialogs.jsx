@@ -30,11 +30,6 @@ const Dialogs = (props) => {
               <DialogItem id = '3' name = 'Mother'/>
               <DialogItem id = '4' name = 'Brother'/>
               <DialogItem id = '5' name = 'Friend'/>
-              {/* <div className={styles.dialog + ' ' + styles.active}><NavLink to='/dialogs/1'> Stas</NavLink></div>
-              <div className={styles.dialog}><NavLink to='/dialogs/1'> Varya</NavLink></div>
-              <div className={styles.dialog}><NavLink to='/dialogs/2'> Mother</NavLink></div>
-              <div className={styles.dialog}><NavLink to='/dialogs/3'> Brother</NavLink></div>
-              <div className={styles.dialog}><NavLink to='/dialogs/4'> Friend</NavLink></div> */}
             </div>
            <div className={styles.messages}>
               <Message message='Hello'/>

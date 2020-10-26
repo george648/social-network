@@ -1,17 +1,13 @@
 import React from 'react';
 import MyPosts from './MyPosts/Myposts';
-import styles from './Profile.module.css'
+import styles from './Profile.module.css';
+import ProfileInfo from './ProfileInfo/ProfileInfo.jsx'
 
 
 const Profile  = () => {
     return <div> 
-    <div>
-      <img className='mainImage' src='https://html5css.ru/css/img_forest.jpg' /> 
-    </div>
-    <div>
-      ava+description
-    </div>
-    <MyPosts />    
+      <ProfileInfo/>
+      <MyPosts />    
   </div>
 }
 
