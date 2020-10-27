@@ -7,21 +7,21 @@ import styles from './Navbar.module.css'
 const Navbar  = () => {
     return <nav className={styles.nav}>
     <div className={styles.item}> 
-      <NavLink activeClassName={styles.active} to='/profile'> Profile</NavLink>
+      <NavLink activeClassName={styles.active + ' ' + styles.linkNavItem} to='/profile'> Profile</NavLink>
     </div>
     <div className={styles.item}>
-      <NavLink activeClassName={styles.active} to='/dialogs'> Messages</NavLink>
+      <NavLink activeClassName={styles.active+ ' ' + styles.linkNavItem} to='/dialogs'> Messages</NavLink>
     </div>
     <div className={`${styles.active} ${styles.item}`}> 
-      <NavLink activeClassName={styles.active} to='/news'> News</NavLink>
+      <NavLink activeClassName={styles.active+ ' ' + styles.linkNavItem} to='/news'> News</NavLink>
     </div>
     <div className={styles.item}>
-      <NavLink activeClassName={styles.active} to='/music'> Music</NavLink>
+      <NavLink activeClassName={styles.active+ ' ' + styles.linkNavItem} to='/music'> Music</NavLink>
     </div>
     <div className={styles.item}>
-      <NavLink activeClassName={styles.active} to='/settings'> Settings</NavLink>
+      <NavLink activeClassName={styles.active+ ' ' + styles.linkNavItem} to='/settings'> Settings</NavLink>
     </div>        
   </nav>
-}
+} 
 
 export default Navbar

@@ -2,7 +2,7 @@
     grid-area: gridNav;
     background-color: rgb(111, 129, 148);
     padding: 25px;
-  }
+}
 
 .item a {
     color: black;
@@ -12,11 +12,10 @@
 
 .item a.active {
     color: lightskyblue;
-
+    background-color: maroon;
+    font-size: 20px;
 }
 
-a {
-    padding-bottom: 10px;
-    
+.item a:hover {
+    color: burlywood;
 }
-  

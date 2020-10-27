@@ -26,9 +26,5 @@
 
 
 .mainImage {
-  width: 90%;
-  /* height: 100%;
-  position: absolute;
-  overflow: hidden;
-  box-sizing: border-box; */
+  width: 100%;
 }
