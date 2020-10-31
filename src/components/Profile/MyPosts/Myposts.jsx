@@ -3,16 +3,10 @@ import styles from './MyPosts.module.css';
 import Post from './Post/Post.jsx'
 
 
-const MyPosts  = () => {
+const MyPosts  = (props) => {
 
-  let postsData = [
-    {id:1, like:12, message: 'hi-hi!'},
-    {id:1, like:0, message: 'это новый пост'},
-    {id:1, like:42, message: 'как настроение!'}
-  ];
-
-  let postsElements = postsData.map(p=>{
-    return <Post message={p.message} likeCount={p.like} />
+  let postsElements = props.postsData.map(p=>{
+    return <Post message={p.message} likeCount={p.like}/>
   })
 
 
@@ -20,7 +14,7 @@ const MyPosts  = () => {
       my posts
       <div>
         <div>
-          <textarea></textarea>
+          <textarea>q</textarea>
         </div>
         <div>
             <button>Add post</button>

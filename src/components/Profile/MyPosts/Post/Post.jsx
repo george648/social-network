@@ -7,7 +7,7 @@ const Post  = (props) => {
       <img alt='avatar' src='https://proprikol.ru/wp-content/uploads/2020/02/kartinki-na-avatarku-dlya-parnej-i-muzhchin-1-1.jpg' />
       {props.message} 
       <div> 
-        <button>send message</button>
+        <button>send 12message</button>
         <span>Like: {props.likeCount}</span>
       </div>
     </div>
